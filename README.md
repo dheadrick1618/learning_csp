@@ -10,3 +10,9 @@ For now I will implement a dummy CSP program using C - which takes non-CSP argum
 ```@bash
 gcc zmq_hello_world_client.c -Wall -lzmq -o zmq_client
 ```
+
+
+### References:
+
+- Article for beginning guide to CSP 
+https://codeabove.dev/index.php/2023/01/14/cubesat-space-protocol-first-steps/
