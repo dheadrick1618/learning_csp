@@ -1,16 +1,10 @@
 # Learning CSP
 
-For now I will implement a dummy CSP program using C - which takes non-CSP arguments (in the future from the OBC), and formats them into CSP, and vice versa. 
-
+The goal of this repo is to setup a simple program to 'spoof' csp packets. This will simply create a data structure the same format as a CSP packet so we can talk to our EPS, and it won't know the difference between the spoof and the use of actual libcsp.
 
 ## Notes
 
-- To build projects with 'zmq' library, you must pass the compiler the '-lzmq' flag. i.e. 
-  
-```@bash
-gcc zmq_hello_world_client.c -Wall -lzmq -o zmq_client
-```
-
+- 
 
 ### References:
 
