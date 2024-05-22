@@ -48,7 +48,7 @@ void print_csp_id(const csp_id_t *id)
     printf("Source Port: %u\n", id->sport);
 }
 
-void print_packet(csp_packet_t *packet)
+void print_csp_packet(csp_packet_t *packet)
 {
     int i;
 

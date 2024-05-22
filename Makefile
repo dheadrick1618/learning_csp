@@ -1,4 +1,4 @@
-CFLAGS = -Wall 
+CFLAGS = -Wall -std=gnu99 
 
 # Default target
 all: csp_spoof_emitter csp_spoof_listener
